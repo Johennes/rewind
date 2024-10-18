@@ -12,5 +12,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out and build
-        uses: ./actions/build
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Build
+        uses: ./rewind/.github/actions/build

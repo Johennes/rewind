@@ -4,9 +4,6 @@ description: Build the book
 runs:
   using: "composite"
   steps:
-    - name: Check out repository
-      uses: actions/checkout@v4
-
     - name: Install mdbook
       shell: bash
       run: |
