@@ -29,6 +29,7 @@ jobs:
           mkdir -p bin
           curl -sSL "https://github.com/Michael-F-Bryan/mdbook-linkcheck/releases/download/$LINKCHECK_VERSION/mdbook-linkcheck.x86_64-unknown-linux-gnu.zip" -o mdbook-linkcheck.zip
           unzip mdbook-linkcheck.zip -d bin
+          chmod +x bin/mdbook-linkcheck
 
       - name: Build
         run: |
