@@ -1,5 +1,14 @@
 # Contribution guide
 
+## Environment setup
+
+In order to build the book, you'll need [mdbook] and [mdbook-linkcheck]
+installed.
+
+```shell
+cargo install mdbook mdbook-linkcheck
+```
+
 ## Manual requirements
 
 The Rewind Repository aims to provide access to manuals of classic HiFi
@@ -31,4 +40,6 @@ $brand_$models_$type_$langs.pdf
 File names must be all lowercase and must not contain any whitespace.
 
 [ISO 639]: https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes
+[mdbook]: https://github.com/rust-lang/mdBook
+[mdbook-linkcheck]: https://github.com/Michael-F-Bryan/mdbook-linkcheck
 [videomanuals]: https://github.com/Syntonie/videomanuals
