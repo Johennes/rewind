@@ -1,0 +1,20 @@
+name: Lint
+
+on:
+  pull_request:
+  push:
+    branches:
+    - main
+  workflow_dispatch:
+
+jobs:
+  license:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check if LICENSE and license.md match
+        run: |
+          [[ -f LICENSE && -f src/license.md && $(cat LICENSE) == $(cat src/license.md | tail -n +3) ]]
