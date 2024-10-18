@@ -6,4 +6,4 @@
 
 A collection of service and owner's manuals for classic HiFi equipment.
 
-Read the book: https://johennes.github.io/rewind/ ⏮️
+Read the book: https://johennes.github.io/rewind/
