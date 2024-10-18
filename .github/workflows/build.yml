@@ -11,7 +11,7 @@ env:
   MDBOOK_VERSION: v0.4.40
 
 jobs:
-  license:
+  build:
     runs-on: ubuntu-latest
 
     steps:
