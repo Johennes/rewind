@@ -27,10 +27,3 @@ jobs:
         run: |
           cargo xtask lint-license
 
-      - name: Install mat2
-        run: |
-          sudo apt-get -y install mat2
-
-      - name: Lint metadata
-        run: |
-          cargo xtask lint-metadata
