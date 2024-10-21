@@ -15,10 +15,15 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Lint filenames
+        run: |
+          cargo xtask lint-filenames
+
+      - name: Lint images
+        run: |
+          cargo xtask lint-images
+
       - name: Lint license
         run: |
           cargo xtask lint-license
 
-      - name: Lint filenames
-        run: |
-          cargo xtask lint-filenames

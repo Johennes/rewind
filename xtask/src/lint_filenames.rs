@@ -26,25 +26,24 @@ fn find_failures(dir: &Path) -> Result<Vec<String>> {
         for entry in fs::read_dir(dir)? {
             let entry = entry?;
             let path = entry.path();
+            let extension = path.extension().map(|s| s.to_string_lossy().to_string());
+
             if path.is_dir() {
                 failures.append(&mut find_failures(&path)?);
-            } else {
-                let extension = path.extension().map(|s| s.to_string_lossy().to_string());
-                if extension == Some("pdf".to_string()) || extension == Some("jpg".to_string()) {
-                    let stem = path
-                        .file_stem()
-                        .context("Path should be representable as string")?
-                        .to_string_lossy();
-                    let num_underscores = stem.chars().filter(|c| *c == '_').count();
-                    let num_whitespace = stem.chars().filter(|c| c.is_whitespace()).count();
-                    let parts: Vec<&str> = stem.split("_").collect();
-                    if num_whitespace > 0
-                        || num_underscores != 3
-                        || parts[0].contains(',')
-                        || (parts[2] != "service-manual" && parts[2] != "owners-manual")
-                    {
-                        failures.push(path.to_string_lossy().to_string());
-                    }
+            } else if extension == Some("pdf".to_string()) || extension == Some("jpg".to_string()) {
+                let stem = path
+                    .file_stem()
+                    .context("Path should be representable as string")?
+                    .to_string_lossy();
+                let num_underscores = stem.chars().filter(|c| *c == '_').count();
+                let num_whitespace = stem.chars().filter(|c| c.is_whitespace()).count();
+                let parts: Vec<&str> = stem.split("_").collect();
+                if num_whitespace > 0
+                    || num_underscores != 3
+                    || parts[0].contains(',')
+                    || (parts[2] != "service-manual" && parts[2] != "owners-manual")
+                {
+                    failures.push(path.to_string_lossy().to_string());
                 }
             }
         }
