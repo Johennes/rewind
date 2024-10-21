@@ -41,7 +41,7 @@ If you have [imagemagick] installed, you can generate a thumbnail with the
 following command.
 
 ```shell
-magick "$file.pdf[0]" -resize x348 -bordercolor "#ccc" -border 1 $file.jpg
+magick "$file.pdf[0]" -trim -resize x348 -bordercolor "#ccc" -border 1 $file.jpg
 ```
 
 ## File naming convention
