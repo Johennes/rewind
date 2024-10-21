@@ -17,4 +17,4 @@ jobs:
 
       - name: Check if LICENSE and license.md match
         run: |
-          [[ -f LICENSE && -f src/license.md && $(cat LICENSE) == $(cat src/license.md | tail -n +3) ]]
+          cargo xtask lint-license
