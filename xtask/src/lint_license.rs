@@ -26,7 +26,7 @@ impl LintLicenseArgs {
         let license: Vec<&str> = license.lines().collect();
         let license_md = read_to_string(&license_md_path)?;
         let license_md: Vec<&str> = license_md.lines().skip(2).collect();
-        ensure!(&license == &license_md, "Contents should match");
+        ensure!(&license == &license_md, "Contents of LICENSE and license.md should match");
 
         Ok(())
     }
