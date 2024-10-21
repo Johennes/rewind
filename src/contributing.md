@@ -63,8 +63,18 @@ $brand_$models_$type_$langs.$ext
 
 File names must be all lowercase and must not contain any whitespace.
 
+## Metadata scrubbing
+
+To avoid superfluous history changes, all PDF and JPEG files must be
+anonymized. This can be done using [mat2].
+
+```shell
+mat2 --inplace $file
+```
+
 [ISO 639]: https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes
 [imagemagick]: https://imagemagick.org
+[mat2]: https://0xacab.org/jvoisin/mat2
 [mdbook]: https://github.com/rust-lang/mdBook
 [mdbook-linkcheck]: https://github.com/Michael-F-Bryan/mdbook-linkcheck
 [videomanuals]: https://github.com/Syntonie/videomanuals

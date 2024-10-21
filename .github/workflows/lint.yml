@@ -27,3 +27,7 @@ jobs:
         run: |
           cargo xtask lint-license
 
+      - name: Lint metadata
+        run: |
+          cargo xtask lint-metadata
+
