@@ -24,3 +24,10 @@
 
 [Service manual (en)<br/>![](sony_cdp-411,cdp-511,cdp-d7_service-manual_en.jpg "Sony CDP-D7 service manual")](sony_cdp-411,cdp-511,cdp-d7_service-manual_en.pdf)
 
+## Sony D-34 (1992)
+
+[Service manual (en)<br/>![](sony_d-34,d-36_service-manual_en.jpg "Sony D-34 service manual")](sony_d-34,d-36_service-manual_en.pdf)
+
+## Sony D-36 (1992)
+
+[Service manual (en)<br/>![](sony_d-34,d-36_service-manual_en.jpg "Sony D-36 service manual")](sony_d-34,d-36_service-manual_en.pdf)
