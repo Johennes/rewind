@@ -29,7 +29,7 @@ jobs:
 
       - name: Install mat2
         run: |
-          apt install mat2
+          sudo apt-get -y install mat2
 
       - name: Lint metadata
         run: |
