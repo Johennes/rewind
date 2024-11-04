@@ -1,5 +1,6 @@
 # Summary
 
+- [Akai](akai.md)
 - [JVC](jvc.md)
 - [Sony](sony.md)
 
