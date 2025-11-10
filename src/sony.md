@@ -28,6 +28,10 @@
 
 [Service manual (en)<br/>![](sony_cdp-68,cdp-207-esd,cdp-750_service-manual_en.jpg "Sony CDP-750 service manual")](sony_cdp-68,cdp-207-esd,cdp-750_service-manual_en.pdf)
 
+## Sony CDP-990 (1990 – 1992)
+
+[Service manual (en)<br/>![](sony_cdp-990_service-manual_en.jpg "Sony CDP-990 service manual")](sony_cdp-990_service-manual_en.pdf)
+
 ## Sony CDP-D7 (1993 – 1994)
 
 [Service manual (en)<br/>![](sony_cdp-411,cdp-511,cdp-d7_service-manual_en.jpg "Sony CDP-D7 service manual")](sony_cdp-411,cdp-511,cdp-d7_service-manual_en.pdf)
