@@ -8,6 +8,14 @@
 
 [Service manual (en)<br/>![](sony_cdp-68,cdp-207-esd,cdp-750_service-manual_en.jpg "Sony CDP-207 ESD service manual")](sony_cdp-68,cdp-207-esd,cdp-750_service-manual_en.pdf)
 
+## Sony CDP-211 (1993 – 1994)
+
+[Service manual (en)<br/>![](sony_cdp-211,cdp-311_service-manual_en.jpg "Sony CDP-211 service manual")](sony_cdp-211,cdp-311_service-manual_en.pdf)
+
+## Sony CDP-311 (1993 – 1994)
+
+[Service manual (en)<br/>![](sony_cdp-211,cdp-311_service-manual_en.jpg "Sony CDP-311 service manual")](sony_cdp-211,cdp-311_service-manual_en.pdf)
+
 ## Sony CDP-411 (1993 – 1994)
 
 [Service manual (en)<br/>![](sony_cdp-411,cdp-511,cdp-d7_service-manual_en.jpg "Sony CDP-411 service manual")](sony_cdp-411,cdp-511,cdp-d7_service-manual_en.pdf)
