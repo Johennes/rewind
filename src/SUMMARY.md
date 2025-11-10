@@ -5,6 +5,7 @@
 - [Kenwood](kenwood.md)
 - [Onkyo](onkyo.md)
 - [Sony](sony.md)
+- [Toshiba](toshiba.md)
 
 ---
 
